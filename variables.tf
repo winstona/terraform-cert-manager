@@ -1,15 +1,15 @@
 variable "name" {
-    default = "cert-manager"
+  default = "cert-manager"
 }
 
 variable "install_helm_chart" {
-    default = true
+  default = true
 }
 
 variable "letsencrypt_environment" {
-    default = "prod"
+  default = "prod"
 }
 
 variable "secret_name" {
-    default = "digitalocean-dns"
+  default = "digitalocean-dns"
 }
